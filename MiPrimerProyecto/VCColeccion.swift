@@ -1,5 +1,5 @@
 //
-//  VCItem1.swift
+//  VCColeccion.swift
 //  MiPrimerProyecto
 //
 //  Created by PABLO HERNANDEZ JIMENEZ on 5/4/18.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class VCItem1: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
-    @IBOutlet var tabla:UITableView?
+class VCColeccion: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    @IBOutlet var colPrincipal:UICollectionView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,43 +23,40 @@ class VCItem1: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:TVCMiCelda = tableView.dequeueReusableCell(withIdentifier: "micelda1") as! TVCMiCelda
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell:CVCMiCelda2 = collectionView.dequeueReusableCell(withReuseIdentifier: "micelda2", for: indexPath) as! CVCMiCelda2
+        
         if indexPath.row == 0
         {
             cell.lblNombre?.text="Jaime"
-            cell.lblImagen?.image=UIImage(named: "descarga.jpeg")
+            cell.imgvMain?.image=UIImage(named: "descarga.jpeg")
         }
         else if (indexPath.row == 1)
         {
             cell.lblNombre?.text="Yony"
-            cell.lblImagen?.image=UIImage(named: "descarga.jpeg")
+            cell.imgvMain?.image=UIImage(named: "descarga.jpeg")
         }
         else if (indexPath.row == 2)
         {
             cell.lblNombre?.text="Pedro"
-            cell.lblImagen?.image=UIImage(named: "descarga.jpeg")
-            
+            cell.imgvMain?.image=UIImage(named: "descarga.jpeg")
         }
         else if (indexPath.row == 3)
         {
             cell.lblNombre?.text="Pablo"
-            cell.lblImagen?.image=UIImage(named: "descarga.jpeg")
-            
+            cell.imgvMain?.image=UIImage(named: "descarga.jpeg")
         }
         else if (indexPath.row == 4)
         {
             cell.lblNombre?.text="Javier"
-            cell.lblImagen?.image=UIImage(named: "descarga.jpeg")
+            cell.imgvMain?.image=UIImage(named: "descarga.jpeg")
         }
         return cell
     }
-    
-
     /*
     // MARK: - Navigation
 
