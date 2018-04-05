@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		794FF438207628530041A73B /* VCItem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FF437207628530041A73B /* VCItem1.swift */; };
+		794FF43A2076407C0041A73B /* MiCelda1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794FF4392076407C0041A73B /* MiCelda1.swift */; };
+		79A8D5252073ACDC00538062 /* VCRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A8D5242073ACDC00538062 /* VCRegister.swift */; };
 		79E203242063B7D6003B2EA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E203232063B7D6003B2EA3 /* AppDelegate.swift */; };
 		79E203262063B7D6003B2EA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E203252063B7D6003B2EA3 /* ViewController.swift */; };
 		79E203292063B7D6003B2EA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E203272063B7D6003B2EA3 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		794FF437207628530041A73B /* VCItem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCItem1.swift; sourceTree = "<group>"; };
+		794FF4392076407C0041A73B /* MiCelda1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiCelda1.swift; sourceTree = "<group>"; };
+		79A8D5242073ACDC00538062 /* VCRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCRegister.swift; sourceTree = "<group>"; };
 		79E203202063B7D6003B2EA3 /* MiPrimerProyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPrimerProyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E203232063B7D6003B2EA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79E203252063B7D6003B2EA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +62,12 @@
 		79E203222063B7D6003B2EA3 /* MiPrimerProyecto */ = {
 			isa = PBXGroup;
 			children = (
+				79E203272063B7D6003B2EA3 /* Main.storyboard */,
 				79E203232063B7D6003B2EA3 /* AppDelegate.swift */,
 				79E203252063B7D6003B2EA3 /* ViewController.swift */,
-				79E203272063B7D6003B2EA3 /* Main.storyboard */,
+				79A8D5242073ACDC00538062 /* VCRegister.swift */,
+				794FF437207628530041A73B /* VCItem1.swift */,
+				794FF4392076407C0041A73B /* MiCelda1.swift */,
 				79E2032D2063B7D6003B2EA3 /* Assets.xcassets */,
 				79E2032F2063B7D6003B2EA3 /* LaunchScreen.storyboard */,
 				79E203322063B7D6003B2EA3 /* Info.plist */,
@@ -145,8 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E2032C2063B7D6003B2EA3 /* MiPrimerProyecto.xcdatamodeld in Sources */,
+				79A8D5252073ACDC00538062 /* VCRegister.swift in Sources */,
 				79E203262063B7D6003B2EA3 /* ViewController.swift in Sources */,
 				79E203242063B7D6003B2EA3 /* AppDelegate.swift in Sources */,
+				794FF438207628530041A73B /* VCItem1.swift in Sources */,
+				794FF43A2076407C0041A73B /* MiCelda1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

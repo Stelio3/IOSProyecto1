@@ -10,6 +10,11 @@ import UIKit
 
 class VCRegister: UIViewController {
 
+    @IBOutlet var txtUsureg:UITextField?
+    @IBOutlet var txtPassReg:UITextField?
+    @IBOutlet var txtRepPass:UITextField?
+    @IBOutlet var txtEmail:UITextField?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

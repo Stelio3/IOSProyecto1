@@ -10,6 +10,7 @@ import UIKit
 
 class MiCelda1: UITableViewCell {
 
+    @IBOutlet var LblNombre:UILabel?
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
